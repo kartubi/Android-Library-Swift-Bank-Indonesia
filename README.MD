@@ -29,6 +29,7 @@
       		}
       	}
     ```
+
     ## Opsional for hiding toolbar add to your manifest main apps:
 
     ```xml
