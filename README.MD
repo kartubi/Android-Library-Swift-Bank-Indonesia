@@ -29,7 +29,7 @@
       		}
       	}
     ```
-    Opsional for hiding toolbar add to your manifest main apps:
+    ## Opsional for hiding toolbar add to your manifest main apps:
 
     ```xml
      <activity
@@ -37,13 +37,13 @@
                 android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
     ```
 
-   Call Bank list :
+   ## Call Bank list :
     ```java
      Intent i = new Intent(getApplicationContext(), Banklist.class);
             startActivityForResult(i, REQUEST_CODE_BANK);
     ```
 
-    set Result in your Activity :
+    ## set Result in your Activity :
 
     ```java
      public void onActivityResult(int requestCode, int resultCode, Intent data) {
