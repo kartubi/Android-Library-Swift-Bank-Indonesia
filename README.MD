@@ -21,32 +21,30 @@
 
    ## Add it in your root build.gradle at the end of repositories :
 
-    ```groovy
+   ```groovy
       allprojects {
-      		repositories {
-      			...
-      			maven { url 'https://jitpack.io' }
-      		}
-      	}
-    ```
+           		repositories {
+           			...
+           			maven { url 'https://jitpack.io' }
+           		}
+           	}
+```
 
-    ## Opsional for hiding toolbar add to your manifest main apps:
+## Optional for hiding toolbar add to your manifest:
 
-    ```xml
+```xml
      <activity
                 android:name="com.pandalisme.swiftbankindonesia2.Banklist"
                 android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-    ```
-
-   ## Call Bank list :
-    ```java
+```
+## Call Bank list :
+```java
      Intent i = new Intent(getApplicationContext(), Banklist.class);
             startActivityForResult(i, REQUEST_CODE_BANK);
-    ```
+```
+## setResult in your Activity :
 
-    ## set Result in your Activity :
-
-    ```java
+```java
      public void onActivityResult(int requestCode, int resultCode, Intent data) {
             if (requestCode == REQUEST_CODE_BANK) {
                 if (resultCode == RESULT_OK) {
@@ -57,12 +55,14 @@
                 }
             }
         }
-    ```
+```
 
 ### WHO USE THIS LIBRARY ###
  - sampletext
 
-contact me for attach : https://web.facebook.com/obih.145
+contact me for attach :
+- [Facebook](https://web.facebook.com/obih.145)
+- [Telegram](https://t.me/obih145)
 
 # License
 
