@@ -3,8 +3,7 @@
     package="com.pandalisme.swiftbankindonesia2">
 
     <application>
-        <activity android:name=".MainActivity" />
-        <activity android:name=".Banklist"></activity>
+        <activity android:name=".Banklist" />
     </application>
 
 </manifest>

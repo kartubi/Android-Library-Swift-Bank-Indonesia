@@ -4,7 +4,7 @@
 
 ### HOW TO CONTRIBUTE ###
 
-    - start and fork
+    - star and fork this repo
     - Check and correct my code
     - update list Bank in /res/raw/bank.json
 
@@ -28,6 +28,13 @@
       			maven { url 'https://jitpack.io' }
       		}
       	}
+    ```
+    Opsional for hiding toolbar add to your manifest main apps:
+
+    ```xml
+     <activity
+                android:name="com.pandalisme.swiftbankindonesia2.Banklist"
+                android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
     ```
 
    Call Bank list :
