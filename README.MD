@@ -4,6 +4,7 @@
 
 ### HOW TO CONTRIBUTE ###
 
+    - start and fork
     - Check and correct my code
     - update list Bank in /res/raw/bank.json
 
@@ -49,6 +50,11 @@
             }
         }
     ```
+
+### WHO USE THIS LIBRARY ###
+ - sampletext
+
+contact me for attach : https://web.facebook.com/obih.145
 
 # License
 
